@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4A5350">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <title>Conditions We Treat | Carter Dermatology - Expert Dermatology Care in Lawton, OK</title>
+  <meta name="description" content="Comprehensive skin condition treatment in Lawton, OK. Dr. Carter provides expert diagnosis and treatment for acne, skin cancer, eczema, psoriasis, and more.">
+  <meta name="keywords" content="skin conditions, acne treatment, skin cancer, eczema, psoriasis, dermatology conditions, Lawton OK, Dr. Carter">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="cd-header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <img src="assets/CertCarter.jpg" alt="Dr. Carter Certification" class="cert-image">
+        <a class="navbar-brand brand" href="index.html">
+          <img src="assets/Carterlogo.svg" alt="Carter Dermatology Logo" class="brand-logo">
+        </a>
+        <a class="nav-link btn btn-primary text-white ms-3 d-none d-lg-inline-block" href="contact.html#online-scheduling">Book Now</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item d-lg-none">
+              <a class="nav-link btn btn-primary text-white mb-2" href="contact.html#online-scheduling">Book Now</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="conditions.html">Conditions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dr.carter.html">Dr. Carter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <img src="assets/CertCarter.jpg" alt="Dr. Carter Certification" class="cert-image-mobile d-lg-none">
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="content">
+    <!-- Modern Hero Section with Background Image -->
+    <section class="conditions-hero">
+      <div class="conditions-hero-bg">
+        <img src="assets/DERMROOM.jpg" alt="Carter Dermatology Treatment Room" class="hero-bg-image">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="row align-items-center">
+          <div class="col-lg-8 mx-auto text-center">
+            <span class="hero-badge">Comprehensive Care</span>
+            <h1 class="display hero-title">
+              <span class="highlighted-text">Conditions We Treat</span>
+            </h1>
+            <p class="hero-description">
+              <span class="highlighted-text-transparent">Our board-certified dermatologist provides expert diagnosis and treatment for a comprehensive range of skin conditions using the latest evidence-based approaches.</span>
+            </p>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <div class="stat-number">30+</div>
+                <div class="stat-label">Conditions Treated</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Expert Care</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enhanced Search Section -->
+    <section class="conditions-search-section">
+      <div class="container">
+        <div class="search-wrapper">
+          <div class="search-header">
+            <h2>Find Your Condition</h2>
+            <p>Search through our comprehensive list of treatable conditions</p>
+          </div>
+          <div class="search-bar-container">
+            <div class="search-input-wrapper">
+              <i class="bi bi-search search-icon"></i>
+              <input id="cond-search" type="search" placeholder="Search for a condition (e.g., acne, eczema, skin cancer)..." aria-label="Search conditions">
+            </div>
+            <div id="cond-count" aria-live="polite" class="search-counter"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modern Conditions Grid -->
+    <section class="conditions-main-section" id="conditions-grid">
+      <div class="container">
+        <div class="conditions-category-tabs">
+          <button class="category-tab active" data-category="all">All Conditions</button>
+          <button class="category-tab" data-category="cancer">Skin Cancer</button>
+          <button class="category-tab" data-category="inflammatory">Inflammatory</button>
+          <button class="category-tab" data-category="infectious">Infections</button>
+          <button class="category-tab" data-category="aesthetic">Aesthetic</button>
+        </div>
+        
+        <div class="conditions-grid">
+          <div class="condition-card" data-keywords="acne pimples zits blackheads whiteheads comedones pustules cysts scars" data-category="inflammatory">
+            <div class="card-icon">
+              <i class="bi bi-circle-fill"></i>
+            </div>
+            <div class="card-content">
+              <h3>Acne Vulgaris</h3>
+              <p>Common inflammatory skin condition with pimples, blackheads, and cysts.</p>
+              <div class="card-tags">
+                <span class="tag">Inflammatory</span>
+                <span class="tag">Common</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="actinic keratosis sun damage precancer rough scaly patch" data-category="cancer">
+            <div class="card-icon">
+              <i class="bi bi-sun"></i>
+            </div>
+            <div class="card-content">
+              <h3>Actinic Keratosis</h3>
+              <p>Rough, scaly patches from sun damage; often precancerous.</p>
+              <div class="card-tags">
+                <span class="tag">Pre-Cancer</span>
+                <span class="tag">Sun Damage</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="basal cell carcinoma bcc skin cancer pearly bump" data-category="cancer">
+            <div class="card-icon">
+              <i class="bi bi-shield-exclamation"></i>
+            </div>
+            <div class="card-content">
+              <h3>Basal Cell Carcinoma</h3>
+              <p>Most common skin cancer, often a pearly bump in sun-exposed areas.</p>
+              <div class="card-tags">
+                <span class="tag">Skin Cancer</span>
+                <span class="tag">Treatable</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="squamous cell carcinoma scc skin cancer scaly red patch nodule" data-category="cancer">
+            <div class="card-icon">
+              <i class="bi bi-shield-x"></i>
+            </div>
+            <div class="card-content">
+              <h3>Squamous Cell Carcinoma</h3>
+              <p>Skin cancer appearing as a scaly red patch or nodule, may ulcerate.</p>
+              <div class="card-tags">
+                <span class="tag">Skin Cancer</span>
+                <span class="tag">Urgent Care</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="malignant melanoma skin cancer changing mole dark asymmetry" data-category="cancer">
+            <div class="card-icon">
+              <i class="bi bi-exclamation-triangle-fill"></i>
+            </div>
+            <div class="card-content">
+              <h3>Malignant Melanoma</h3>
+              <p>Serious skin cancer, often a changing, dark, or irregular mole.</p>
+              <div class="card-tags">
+                <span class="tag">Serious</span>
+                <span class="tag">Early Detection</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="seborrheic keratosis stuck-on waxy benign growth" data-category="aesthetic">
+            <div class="card-icon">
+              <i class="bi bi-circle"></i>
+            </div>
+            <div class="card-content">
+              <h3>Seborrheic Keratosis</h3>
+              <p>Very common, benign "stuck-on" appearing waxy or rough growths.</p>
+              <div class="card-tags">
+                <span class="tag">Benign</span>
+                <span class="tag">Common</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="psoriasis plaques silvery scale elbows knees scalp" data-category="inflammatory">
+            <div class="card-icon">
+              <i class="bi bi-layers"></i>
+            </div>
+            <div class="card-content">
+              <h3>Psoriasis</h3>
+              <p>Chronic autoimmune disease with thick, red, scaly patches.</p>
+              <div class="card-tags">
+                <span class="tag">Autoimmune</span>
+                <span class="tag">Chronic</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="atopic dermatitis eczema itch rash dry skin allergy" data-category="inflammatory">
+            <div class="card-icon">
+              <i class="bi bi-droplet"></i>
+            </div>
+            <div class="card-content">
+              <h3>Atopic Dermatitis (Eczema)</h3>
+              <p>Chronic, itchy, inflamed skin, often with allergies or asthma.</p>
+              <div class="card-tags">
+                <span class="tag">Allergic</span>
+                <span class="tag">Chronic</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="contact dermatitis rash allergic irritant red itchy blisters" data-category="inflammatory">
+            <div class="card-icon">
+              <i class="bi bi-hand-thumbs-down"></i>
+            </div>
+            <div class="card-content">
+              <h3>Contact Dermatitis</h3>
+              <p>Red, itchy rash from contact with allergens or irritants.</p>
+              <div class="card-tags">
+                <span class="tag">Allergic</span>
+                <span class="tag">Irritant</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="seborrheic dermatitis dandruff flaky scalp eyebrows nose ears" data-category="inflammatory">
+            <div class="card-icon">
+              <i class="bi bi-snow"></i>
+            </div>
+            <div class="card-content">
+              <h3>Seborrheic Dermatitis</h3>
+              <p>Flaky, red, itchy skin on scalp, face, and ears (dandruff).</p>
+              <div class="card-tags">
+                <span class="tag">Scalp</span>
+                <span class="tag">Facial</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="rosacea facial redness flushing bumps pustules blood vessels" data-category="inflammatory">
+            <div class="card-icon">
+              <i class="bi bi-heart-fill"></i>
+            </div>
+            <div class="card-content">
+              <h3>Rosacea</h3>
+              <p>Facial redness, flushing, visible blood vessels, and bumps.</p>
+              <div class="card-tags">
+                <span class="tag">Facial</span>
+                <span class="tag">Vascular</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="urticaria hives welts swelling angioedema allergy" data-category="inflammatory">
+            <div class="card-icon">
+              <i class="bi bi-lightning"></i>
+            </div>
+            <div class="card-content">
+              <h3>Urticaria (Hives)</h3>
+              <p>Itchy, raised welts or swelling from allergic or non-allergic triggers.</p>
+              <div class="card-tags">
+                <span class="tag">Allergic</span>
+                <span class="tag">Acute</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="vitiligo depigmentation white patches autoimmune" data-category="aesthetic">
+            <div class="card-icon">
+              <i class="bi bi-palette"></i>
+            </div>
+            <div class="card-content">
+              <h3>Vitiligo</h3>
+              <p>Loss of skin pigment, causing white patches.</p>
+              <div class="card-tags">
+                <span class="tag">Autoimmune</span>
+                <span class="tag">Pigment</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="alopecia areata hair loss patches autoimmune" data-category="aesthetic">
+            <div class="card-icon">
+              <i class="bi bi-person-dash"></i>
+            </div>
+            <div class="card-content">
+              <h3>Alopecia Areata</h3>
+              <p>Sudden patchy hair loss due to autoimmune attack on hair follicles.</p>
+              <div class="card-tags">
+                <span class="tag">Hair Loss</span>
+                <span class="tag">Autoimmune</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="androgenetic alopecia pattern hair loss male female thinning" data-category="aesthetic">
+            <div class="card-icon">
+              <i class="bi bi-person-x"></i>
+            </div>
+            <div class="card-content">
+              <h3>Androgenetic Alopecia</h3>
+              <p>Genetic hair loss pattern in men and women.</p>
+              <div class="card-tags">
+                <span class="tag">Genetic</span>
+                <span class="tag">Pattern</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="nail disorders onychomycosis dystrophy fungus thick yellow brittle" data-category="infectious">
+            <div class="card-icon">
+              <i class="bi bi-hand-index"></i>
+            </div>
+            <div class="card-content">
+              <h3>Nail Disorders</h3>
+              <p>Fungal or structural nail changes like thick, yellow, or brittle nails.</p>
+              <div class="card-tags">
+                <span class="tag">Fungal</span>
+                <span class="tag">Structural</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="bacterial skin infections impetigo cellulitis folliculitis redness pain pus" data-category="infectious">
+            <div class="card-icon">
+              <i class="bi bi-virus"></i>
+            </div>
+            <div class="card-content">
+              <h3>Bacterial Skin Infections</h3>
+              <p>Red, painful, or pus-filled skin infections caused by bacteria.</p>
+              <div class="card-tags">
+                <span class="tag">Bacterial</span>
+                <span class="tag">Urgent</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="viral skin infections warts molluscum herpes simplex zoster cold sore shingles" data-category="infectious">
+            <div class="card-icon">
+              <i class="bi bi-bug"></i>
+            </div>
+            <div class="card-content">
+              <h3>Viral Skin Infections</h3>
+              <p>Viral infections causing warts, cold sores, or shingles.</p>
+              <div class="card-tags">
+                <span class="tag">Viral</span>
+                <span class="tag">Contagious</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="fungal skin infections tinea ringworm athlete's foot candidiasis scalp" data-category="infectious">
+            <div class="card-icon">
+              <i class="bi bi-moisture"></i>
+            </div>
+            <div class="card-content">
+              <h3>Fungal Skin Infections</h3>
+              <p>Fungal infections of skin, scalp, or nails (e.g., ringworm, athlete's foot).</p>
+              <div class="card-tags">
+                <span class="tag">Fungal</span>
+                <span class="tag">Treatable</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="benign nevi moles brown flat raised uniform symmetric" data-category="aesthetic">
+            <div class="card-icon">
+              <i class="bi bi-record-circle"></i>
+            </div>
+            <div class="card-content">
+              <h3>Benign Nevi (Moles)</h3>
+              <p>Noncancerous, uniform moles or birthmarks.</p>
+              <div class="card-tags">
+                <span class="tag">Benign</span>
+                <span class="tag">Monitoring</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="dysplastic nevi atypical moles irregular border color risk" data-category="cancer">
+            <div class="card-icon">
+              <i class="bi bi-record-circle-fill"></i>
+            </div>
+            <div class="card-content">
+              <h3>Dysplastic Nevi (Atypical Moles)</h3>
+              <p>Unusual moles with irregular borders or color, higher melanoma risk.</p>
+              <div class="card-tags">
+                <span class="tag">Atypical</span>
+                <span class="tag">Monitor</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="lipomas epidermal inclusion cysts fatty lump nodule benign" data-category="aesthetic">
+            <div class="card-icon">
+              <i class="bi bi-circle-square"></i>
+            </div>
+            <div class="card-content">
+              <h3>Lipomas and Cysts</h3>
+              <p>Benign fatty lumps or cysts under the skin.</p>
+              <div class="card-tags">
+                <span class="tag">Benign</span>
+                <span class="tag">Surgical</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="scabies mites intense itch burrows contagious" data-category="infectious">
+            <div class="card-icon">
+              <i class="bi bi-search"></i>
+            </div>
+            <div class="card-content">
+              <h3>Scabies</h3>
+              <p>Intensely itchy, contagious skin infestation by mites.</p>
+              <div class="card-tags">
+                <span class="tag">Parasitic</span>
+                <span class="tag">Contagious</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="lichen planus purple bumps itchy wrists ankles mouth autoimmune" data-category="inflammatory">
+            <div class="card-icon">
+              <i class="bi bi-diamond"></i>
+            </div>
+            <div class="card-content">
+              <h3>Lichen Planus</h3>
+              <p>Itchy, purplish bumps on skin or mouth, autoimmune origin.</p>
+              <div class="card-tags">
+                <span class="tag">Autoimmune</span>
+                <span class="tag">Chronic</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="lichen sclerosus white patches genital itch pain scarring" data-category="inflammatory">
+            <div class="card-icon">
+              <i class="bi bi-patch-check"></i>
+            </div>
+            <div class="card-content">
+              <h3>Lichen Sclerosus</h3>
+              <p>Thin, white, itchy patches, often in genital area, can scar.</p>
+              <div class="card-tags">
+                <span class="tag">Chronic</span>
+                <span class="tag">Specialized</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="bullous pemphigoid blistering autoimmune elderly tense blisters" data-category="inflammatory">
+            <div class="card-icon">
+              <i class="bi bi-water"></i>
+            </div>
+            <div class="card-content">
+              <h3>Autoimmune Blistering Diseases</h3>
+              <p>Chronic autoimmune diseases causing large, tense blisters.</p>
+              <div class="card-tags">
+                <span class="tag">Autoimmune</span>
+                <span class="tag">Serious</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="cutaneous lupus erythematosus discoid scaly plaques sun scarring" data-category="inflammatory">
+            <div class="card-icon">
+              <i class="bi bi-sun-fill"></i>
+            </div>
+            <div class="card-content">
+              <h3>Cutaneous Lupus Erythematosus</h3>
+              <p>Autoimmune skin condition with red, scaly, disc-shaped patches.</p>
+              <div class="card-tags">
+                <span class="tag">Autoimmune</span>
+                <span class="tag">Sun-sensitive</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="photodermatoses sun allergy rash hives polymorphic light eruption solar urticaria" data-category="inflammatory">
+            <div class="card-icon">
+              <i class="bi bi-brightness-high"></i>
+            </div>
+            <div class="card-content">
+              <h3>Photodermatoses</h3>
+              <p>Skin reactions to sunlight, causing rash or hives.</p>
+              <div class="card-tags">
+                <span class="tag">Sun Allergy</span>
+                <span class="tag">Reactive</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="hyperpigmentation melasma dark spots post-inflammatory discoloration" data-category="aesthetic">
+            <div class="card-icon">
+              <i class="bi bi-moon-fill"></i>
+            </div>
+            <div class="card-content">
+              <h3>Hyperpigmentation Disorders</h3>
+              <p>Dark patches from excess melanin, sun, or inflammation.</p>
+              <div class="card-tags">
+                <span class="tag">Pigment</span>
+                <span class="tag">Cosmetic</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="condition-card" data-keywords="hypopigmentation pityriasis alba light spots post-inflammatory hypo" data-category="aesthetic">
+            <div class="card-icon">
+              <i class="bi bi-moon"></i>
+            </div>
+            <div class="card-content">
+              <h3>Hypopigmentation Disorders</h3>
+              <p>Lighter skin patches from decreased melanin, often after eczema or injury.</p>
+              <div class="card-tags">
+                <span class="tag">Pigment Loss</span>
+                <span class="tag">Post-inflammatory</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Call to Action Section -->
+        <div class="conditions-cta">
+          <div class="cta-content">
+            <h3>Don't See Your Condition?</h3>
+            <p>We treat many more skin conditions beyond this list. Contact us to discuss your specific concerns.</p>
+            <div class="cta-buttons">
+              <a href="contact.html#online-scheduling" class="btn btn-primary btn-lg">Schedule Consultation</a>
+              <a href="contact.html" class="btn btn-outline-secondary btn-lg">Contact Us</a>
+            </div>
+          </div>
+        <div class="tile" data-keywords="seborrheic keratosis stuck-on waxy benign growth"><h3>Seborrheic keratosis</h3><p>Very common, benign “stuck-on” appearing waxy or rough growths.</p></div>
+        <div class="tile" data-keywords="psoriasis plaques silvery scale elbows knees scalp"><h3>Psoriasis</h3><p>Chronic autoimmune disease with thick, red, scaly patches.</p></div>
+        <div class="tile" data-keywords="atopic dermatitis eczema itch rash dry skin allergy"><h3>Atopic dermatitis (eczema)</h3><p>Chronic, itchy, inflamed skin, often with allergies or asthma.</p></div>
+        <div class="tile" data-keywords="contact dermatitis rash allergic irritant red itchy blisters"><h3>Contact dermatitis</h3><p>Red, itchy rash from contact with allergens or irritants.</p></div>
+        <div class="tile" data-keywords="seborrheic dermatitis dandruff flaky scalp eyebrows nose ears"><h3>Seborrheic dermatitis</h3><p>Flaky, red, itchy skin on scalp, face, and ears (dandruff).</p></div>
+        <div class="tile" data-keywords="rosacea facial redness flushing bumps pustules blood vessels"><h3>Rosacea</h3><p>Facial redness, flushing, visible blood vessels, and bumps.</p></div>
+        <div class="tile" data-keywords="urticaria hives welts swelling angioedema allergy"><h3>Urticaria (hives)</h3><p>Itchy, raised welts or swelling from allergic or non-allergic triggers.</p></div>
+        <div class="tile" data-keywords="vitiligo depigmentation white patches autoimmune"><h3>Vitiligo</h3><p>Loss of skin pigment, causing white patches.</p></div>
+        <div class="tile" data-keywords="alopecia areata hair loss patches autoimmune"><h3>Alopecia areata</h3><p>Sudden patchy hair loss due to autoimmune attack on hair follicles.</p></div>
+        <div class="tile" data-keywords="androgenetic alopecia pattern hair loss male female thinning"><h3>Androgenetic alopecia</h3><p>Genetic hair loss pattern in men and women.</p></div>
+        <div class="tile" data-keywords="nail disorders onychomycosis dystrophy fungus thick yellow brittle"><h3>Nail disorders</h3><p>Fungal or structural nail changes like thick, yellow, or brittle nails.</p></div>
+        <div class="tile" data-keywords="bacterial skin infections impetigo cellulitis folliculitis redness pain pus"><h3>Bacterial skin infections</h3><p>Red, painful, or pus-filled skin infections caused by bacteria.</p></div>
+        <div class="tile" data-keywords="viral skin infections warts molluscum herpes simplex zoster cold sore shingles"><h3>Viral skin infections</h3><p>Viral infections causing warts, cold sores, or shingles.</p></div>
+        <div class="tile" data-keywords="fungal skin infections tinea ringworm athlete's foot candidiasis scalp"><h3>Fungal skin infections</h3><p>Fungal infections of skin, scalp, or nails (e.g., ringworm, athlete’s foot).</p></div>
+        <div class="tile" data-keywords="benign nevi moles brown flat raised uniform symmetric"><h3>Benign nevi (moles)</h3><p>Noncancerous, uniform moles or birthmarks.</p></div>
+        <div class="tile" data-keywords="dysplastic nevi atypical moles irregular border color risk"><h3>Dysplastic nevi (atypical moles)</h3><p>Unusual moles with irregular borders or color, higher melanoma risk.</p></div>
+        <div class="tile" data-keywords="lipomas epidermal inclusion cysts fatty lump nodule benign"><h3>Lipomas and Cysts</h3><p>Benign fatty lumps or cysts under the skin.</p></div>
+        <div class="tile" data-keywords="scabies mites intense itch burrows contagious"><h3>Scabies</h3><p>Intensely itchy, contagious skin infestation by mites.</p></div>
+        <div class="tile" data-keywords="lichen planus purple bumps itchy wrists ankles mouth autoimmune"><h3>Lichen planus</h3><p>Itchy, purplish bumps on skin or mouth, autoimmune origin.</p></div>
+        <div class="tile" data-keywords="lichen sclerosus white patches genital itch pain scarring"><h3>Lichen sclerosus</h3><p>Thin, white, itchy patches, often in genital area, can scar.</p></div>
+        <div class="tile" data-keywords="bullous pemphigoid blistering autoimmune elderly tense blisters"><h3>Autoimmune blistering diseases</h3><p>Chronic autoimmune diseases causing large, tense blisters.</p></div>
+        <div class="tile" data-keywords="cutaneous lupus erythematosus discoid scaly plaques sun scarring"><h3>Cutaneous lupus erythematosus</h3><p>Autoimmune skin condition with red, scaly, disc-shaped patches.</p></div>
+        <div class="tile" data-keywords="photodermatoses sun allergy rash hives polymorphic light eruption solar urticaria"><h3>Photodermatoses</h3><p>Skin reactions to sunlight, causing rash or hives.</p></div>
+        <div class="tile" data-keywords="hyperpigmentation melasma dark spots post-inflammatory discoloration"><h3>Hyperpigmentation disorders</h3><p>Dark patches from excess melanin, sun, or inflammation.</p></div>
+        <div class="tile" data-keywords="hypopigmentation pityriasis alba light spots post-inflammatory hypo"><h3>Hypopigmentation disorders</h3><p>Lighter skin patches from decreased melanin, often after eczema or injury.</p></div>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="cd-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo">CD</div>
+        <p>Modern medical, surgical, and cosmetic dermatology with a patient-first approach.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="conditions.html">Conditions</a></li>
+          <li><a href="dr-carter.html">Dr. Carter</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="#" id="shop-link-footer">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><strong>Address:</strong> 702 NW Sheridan Rd, Lawton, OK 73505</li>
+          <li><strong>Phone:</strong> <a href="tel:+15805763376">(580) 576-DERM (3376)</a></li>
+          <li><strong>Fax:</strong> (580) 576-3375</li>
+          <li><strong>Email:</strong> <a href="mailto:support@carterderm.com">support@carterderm.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul>
+          <li>Monday – Friday: 8:00 AM to 5:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© 2025 Carter Dermatology. All rights reserved.</small>
+      <div class="legal-links">
+        <a href="#">Privacy</a>
+        <a href="#">Accessibility</a>
+      </div>
+    </div>
+  </footer>
+  <div id="shop-modal"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

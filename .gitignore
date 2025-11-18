@@ -1,0 +1,20 @@
+# Carter Dermatology Website
+
+## Security Files
+config.js
+*.env
+.env.*
+api-keys.js
+
+## Development Files
+node_modules/
+.vscode/
+*.log
+
+## Backup Files
+*.bak
+*~
+
+## OS Files
+.DS_Store
+Thumbs.db
